@@ -1,6 +1,6 @@
 ﻿namespace POO_Workshop
 {
-    public abstract class Product
+    public abstract class Product : IPay
     {
         public int Id { get; set; }
         public string Description { get; set; }
